@@ -74,7 +74,7 @@ const buildCustomWorker = ({ id, basedir, customWorkerDir, destdir, plugins, min
                     {
                       'transform-runtime': {
                         corejs: false,
-                        helpers: true,
+                        helpers: false,
                         regenerator: false,
                         useESModules: true
                       },
